@@ -1,0 +1,34 @@
+#titulo{color: rgb(0, 107, 107);}
+
+#subtitulo{color: blue;}
+
+.destacado{color:#ffdb38 ;}
+
+p strong{color: red;}
+
+a{color: red;}
+
+em {color: blue;}
+
+span.especial{color:blueviolet}
+
+caption{display: none;}
+
+table{border-style: 1px solid black; border-collapse: collapse;}
+
+th{color: red;  border: 1px solid black;}
+
+th.especial{color: rgb(231, 181, 18);}
+
+td{color: green; border: 1px solid black;}
+
+td em{color:green;}
+
+td strong{color:rgb(231, 181, 18);}
+
+div p {color:rgb(152, 179, 105)}
+
+span#especial{color:rgb(209, 78, 221)}
+
+
+div p a {color:green;}

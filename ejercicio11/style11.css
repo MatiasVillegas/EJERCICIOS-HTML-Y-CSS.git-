@@ -1,0 +1,26 @@
+table{ 
+    margin: 1em 1em 2em 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    caption-side: top;
+    border: 1px solid #333;
+    border-collapse: collapse;
+    }
+   
+th, td {
+    padding: 0.2em;
+    text-align: center;
+}
+
+th[scope=row] {
+    background-color: #E6F3FF;
+    background-image: none;
+    text-align: left;
+}
+
+tr th {
+    background-image: url("imagenes/fondo_gris.gif");
+}
+
+table tr.coloreado {
+    background-color:#FFFFCC;
+}

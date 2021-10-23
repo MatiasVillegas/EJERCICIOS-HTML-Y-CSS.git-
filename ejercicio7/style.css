@@ -1,0 +1,16 @@
+body {background-color: rgb(67, 70, 69);
+}
+
+h1 {background-color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    text-align: center;
+    color: blueviolet;
+}
+h2 {background-color: cadetblue;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-align: center;
+    color: rgb(223, 34, 20);
+}
+
+p {font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(230, 182, 175);}

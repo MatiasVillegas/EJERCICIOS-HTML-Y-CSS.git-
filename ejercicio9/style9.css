@@ -1,0 +1,58 @@
+body {
+  background-color: rgb(55, 55, 58);
+  font-family: arial;
+  color: whitesmoke;
+}
+h1 {
+  font-size: 16;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: underline;
+  text-align: center;
+  background-color: rgb(71, 96, 150);
+}
+
+p {
+  font-size: 1.5em;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: normal;
+  text-align: left;
+  margin: 1em;
+}
+ol {
+  list-style: decimal;
+}
+
+ul li {
+  counter-increment: numero_item;
+}
+
+ul li:before {
+ content: counter(numero_item, decimal-leading-zero);
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: rgb(198, 236, 59);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 5px;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(183, 207, 207);
+  display: block;
+  padding: 1em;
+  font-weight: bolder;
+  transition: all 0.6s ease-in-out;
+  max-width: max-content;
+}
+
+a:hover {
+  color: white;
+  background-color: rgb(134, 102, 185);
+}

@@ -1,0 +1,50 @@
+body{
+  background-color: rgb(16, 16, 17);
+    font-family: arial;
+    color: whitesmoke;
+}
+h1 {
+  font-size: 16;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: underline;
+  text-align: center;
+  background-color: rgb(121, 158, 158);
+  }
+
+p {
+font-size: 12;
+font-family: 'Times New Roman', Times, serif;
+font-weight: normal;
+text-align: left;
+}
+
+
+a {
+  color: #cc0000;
+  text-decoration: none;
+  display: block;
+  font-size: 1.5em;
+  max-width: max-content;
+  padding: 0.5em;
+}
+
+/*link sin visitar*/
+a:link {
+  color: rgb(red, 112, 196);
+}
+
+/*mouse sobre el link */
+a:hover {
+  background-color: #cc0000;
+  color: #fff;
+}
+
+/*link visitado*/
+a:visited {
+  color: #ccc;
+}
+
+/*link clickeado*/
+a:active {
+  color: rgb(53, 53, 243);
+}
